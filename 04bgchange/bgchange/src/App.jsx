@@ -14,21 +14,21 @@ function App() {
             <button
               onClick={() => setColor("red")}
               className="outline-none px-4 rounded-3xl shadow-lg"
-              style={{ backgroundColor: "red" }}
+              style={{ backgroundColor: { color } }}
             >
               Red
             </button>
             <button
               onClick={() => setColor("green")}
               className="outline-none px-4 rounded-3xl shadow-lg"
-              style={{ backgroundColor: "green" }}
+              style={{ backgroundColor: { green } }}
             >
               Green
             </button>
             <button
               onClick={() => setColor("blue")}
               className="outline-none px-4 rounded-3xl shadow-lg"
-              style={{ backgroundColor: "Blue" }}
+              style={{ backgroundColor: { Blue } }}
             >
               Blue
             </button>
